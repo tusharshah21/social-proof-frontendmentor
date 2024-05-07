@@ -21,11 +21,9 @@ export default function Social() {
         <div className="lg:ml-10">
           <div className="lg:flex rounded-lg">
             <div className="bg-[hsl(300,24%,96%)] p-2 justify-center lg:pl-4 lg:p-4 flex items-center rounded-l-lg">
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
+            {[...Array(5)].map((_, index) => (
+                <img key={index} src={star} className="px-[0.25rem] py-2" alt="star" />
+              ))}
             </div>
             <div className="bg-[hsl(300,24%,96%)] p-2 lg:p-4 rounded-r-lg text-center lg:text-left lg:pr-20">
               <p className="league-spartan-bold my-auto text-xl text-[hsl(300,43%,22%)]">
@@ -36,11 +34,9 @@ export default function Social() {
 
           <div className="lg:ml-12 lg:flex rounded-lg mt-6">
             <div className="bg-[hsl(300,24%,96%)] lg:pl-4 lg:p-4 p-2 justify-center flex items-center rounded-l-lg">
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
+            {[...Array(5)].map((_, index) => (
+                <img key={index} src={star} className="px-[0.25rem] py-2" alt="star" />
+              ))}
             </div>
             <div className="bg-[hsl(300,24%,96%)] lg:p-4 p-2 text-center lg:text-left rounded-r-lg lg:pr-10">
               <p className="league-spartan-bold my-auto text-xl text-[hsl(300,43%,22%)]">
@@ -51,11 +47,9 @@ export default function Social() {
 
           <div className="lg:ml-24 lg:flex rounded-lg mt-6">
             <div className="bg-[hsl(300,24%,96%)] pl-4 lg:p-4 p-2 justify-center flex items-center rounded-l-lg">
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
-              <img src={star} className="px-[0.25rem] py-2" alt="star" />
+            {[...Array(5)].map((_, index) => (
+                <img key={index} src={star} className="px-[0.25rem] py-2" alt="star" />
+              ))}
             </div>
             <div className="bg-[hsl(300,24%,96%)] lg:p-4 p-2 text-center lg:text-left rounded-r-lg lg:pr-16">
               <p className="league-spartan-bold my-auto text-xl text-[hsl(300,43%,22%)]">
